@@ -35,7 +35,7 @@ python run.py --dataset <dataset> --model <model> --lr <learning_rate> --rho <rh
 ```
 #### Argument Descriptions
 
-- **lr**: Learning rate for the optimizer (e.g., `0.001`).
+- **lr**: Learning rate for the optimizer (e.g., `0.01`).
 - **rho**: Momentum parameter for optimization (e.g., `0.9`).
 - **nEpoch**: Number of epochs for training (e.g., `100`).
 - **dataset**: The name of the dataset to use (e.g., "BasicMotions").
