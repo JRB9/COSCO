@@ -11,9 +11,13 @@ from COSCO.SAM import SAM
 from COSCO.utils.load_data import *
 from COSCO.utils.save import *
 
+# Instead of importing _BatchNorm, import the appropriate BatchNorm class
+from torch.nn import BatchNorm1d, BatchNorm2d, BatchNorm3d
+
 def disable_running_stats(model):
     def _disable(module):
-        if isinstance(module, _BatchNorm):
+        # Check if the module is an instance of any of the BatchNorm classes
+        if isinstance(module, (BatchNorm1d, BatchNorm2d, BatchNorm3d)):
             module.backup_momentum = module.momentum
             module.momentum = 0
 
@@ -21,7 +25,8 @@ def disable_running_stats(model):
 
 def enable_running_stats(model):
     def _enable(module):
-        if isinstance(module, _BatchNorm) and hasattr(module, "backup_momentum"):
+        # Check if the module is an instance of any of the BatchNorm classes
+        if isinstance(module, (BatchNorm1d, BatchNorm2d, BatchNorm3d)) and hasattr(module, "backup_momentum"):
             module.momentum = module.backup_momentum
 
     model.apply(_enable)
