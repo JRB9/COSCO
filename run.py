@@ -191,7 +191,7 @@ def full_training(args):
   return acc
 
 
-if __name__ =='_main_':
+if __name__ =='__main__':
     parser = argparse.ArgumentParser()
     #Hyperparameters
     parser.add_argument('--lr', type=float, default=0.01)
@@ -212,9 +212,6 @@ if __name__ =='_main_':
 
     #Prototypical Loss
     parser.add_argument('--prototypical_loss', type=bool, default=True)
-
-    #Trainer
-    parser.add_argument('--input_size',default=)
 
     #Other Parameters
     parser.add_argument('--prototypical_loss_type',type=str, default='neg',choices=['neg','sim','cos','negexp'])
