@@ -31,7 +31,7 @@ Run ```COSCO.ipynb``` in any Jupiter Notebook environment.
 ### Running Locally
 Execute```run.py``` with the following configurable arguments:
 ```bash
-python run.py --dataset <dataset> --model <model> --lr <learning_rate> --rho <rho> --nEpoch <number_of_epochs> --shot <shots> --normalize <True/False> --sam <True/False> --optimizer <sgd/adam> --prototypical_loss <True/False> --prototypical_loss_type <neg/sim/cos/negexp> --save_dir <save_directory> --save_name <save_filename>
+python run.py
 ```
 #### Argument Descriptions
 
