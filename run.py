@@ -216,6 +216,10 @@ if __name__ =='__main__':
     #Other Parameters
     parser.add_argument('--prototypical_loss_type',type=str, default='neg',choices=['neg','sim','cos','negexp'])
 
+    #Saving
+    parser.add_argument('--save_dir', type=str, default='/content/classification_data/')
+    parser.add_argument('--save_name', type=str, default='results.csv')
+
     args = parser.parse_args()
 
     # columns for our results dataframe
