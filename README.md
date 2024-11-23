@@ -58,12 +58,13 @@ python run.py --dataset BasicMotions --model resnet --lr 0.001 --rho 0.9 --nEpoc
 
 
 
-## Appendix
+## <span id="citelink">Citation</span>
 
 Submitted & accepted for publication in the CIKM '24 conference.
 
 If you use this code or our methods in your research, please cite our paper:
 
+```
 @inproceedings{10.1145/3627673.3679891,
 author = {Barreda, Jesus and Gomez, Ashley and Puga, Ruben and Zhou, Kaixiong and Zhang, Li},
 title = {COSCO: A Sharpness-Aware Training Framework for Few-shot Multivariate Time Series Classification},
@@ -81,5 +82,4 @@ keywords = {few-shot learning, multivariate time series classification, sharpnes
 location = {Boise, ID, USA},
 series = {CIKM '24}
 }
-
-
+```
