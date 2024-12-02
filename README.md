@@ -65,11 +65,11 @@ Submitted & accepted for publication in the CIKM '24 conference.
 If you use this code or our methods in your research, please cite our paper:
 
 ```
-**@inproceedings{barreda2024cosco,
+@inproceedings{barreda2024cosco,
   title={COSCO: A Sharpness-Aware Training Framework for Few-shot Multivariate Time Series Classification},
   author={Barreda, Jesus and Gomez, Ashley and Puga, Ruben and Zhou, Kaixiong and Zhang, Li},
   booktitle={Proceedings of the 33rd ACM International Conference on Information and Knowledge Management},
   pages={3622--3626},
   year={2024}
-}**
+}
 ```
