@@ -65,21 +65,11 @@ Submitted & accepted for publication in the CIKM '24 conference.
 If you use this code or our methods in your research, please cite our paper:
 
 ```
-@inproceedings{10.1145/3627673.3679891,
-author = {Barreda, Jesus and Gomez, Ashley and Puga, Ruben and Zhou, Kaixiong and Zhang, Li},
-title = {COSCO: A Sharpness-Aware Training Framework for Few-shot Multivariate Time Series Classification},
-year = {2024},
-isbn = {9798400704369},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3627673.3679891},
-doi = {10.1145/3627673.3679891},
-abstract = {Multivariate time series classification is an important task with widespread domains of applications. Recently, deep neural networks (DNN) have achieved state-of-the-art performance in time series classification. However, they often require large expert-labeled training datasets which can be infeasible in practice. In few-shot settings, i.e. only a limited number of samples per class are available in training data, DNNs show a significant drop in testing accuracy and poor generalization ability. In this paper, we propose to address these problems from an optimization and a loss function perspective. Specifically, we propose a new learning framework named COSCO consisting of a sharpness-aware minimization (SAM) optimization and a Prototypical loss function to improve the generalization ability of DNN for multivariate time series classification problems under few-shot setting. Our experiments demonstrate our proposed method outperforms the existing baseline methods. Our source code is available at: https://github.com/JRB9/COSCO.},
-booktitle = {Proceedings of the 33rd ACM International Conference on Information and Knowledge Management},
-pages = {3622–3626},
-numpages = {5},
-keywords = {few-shot learning, multivariate time series classification, sharpness-aware minimization},
-location = {Boise, ID, USA},
-series = {CIKM '24}
-}
+**@inproceedings{barreda2024cosco,
+  title={COSCO: A Sharpness-Aware Training Framework for Few-shot Multivariate Time Series Classification},
+  author={Barreda, Jesus and Gomez, Ashley and Puga, Ruben and Zhou, Kaixiong and Zhang, Li},
+  booktitle={Proceedings of the 33rd ACM International Conference on Information and Knowledge Management},
+  pages={3622--3626},
+  year={2024}
+}**
 ```
