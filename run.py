@@ -12,15 +12,15 @@ import os
 import uuid
 import argparse
 
-from COSCO.Prototypical_Loss import PrototypicalLoss
-from COSCO.Prototypical_Loss import prototypical_testing as ptest
-from COSCO.Baselines.ResNet import *
-from COSCO.Baselines.TapNet import *
-from COSCO.SAM import SAM
+from Prototypical_Loss import PrototypicalLoss
+from Prototypical_Loss import prototypical_testing as ptest
+from Baselines.ResNet import *
+from Baselines.TapNet import *
+from SAM import SAM
 
-from COSCO.utils.load_data import *
-from COSCO.utils.save import *
-from COSCO.utils.proto_model import *
+from utils.load_data import *
+from utils.save import *
+from utils.proto_model import *
 
 if __name__ =='__main__':
     parser = argparse.ArgumentParser()
