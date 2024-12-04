@@ -336,8 +336,8 @@ class SAM(torch.optim.Optimizer):
 
 # mount drive
 
-from google.colab import drive
-drive.mount('/content/drive')
+#from google.colab import drive
+#drive.mount('/content/drive')
 
 import numpy as np
 import torch
